@@ -30,7 +30,7 @@ function App() {
     <div className="min-h-screen relative flex flex-col justify-center items-center">
       <h1 className="lg:text-7xl text-2xl font-bold">
         Hello!  {
-          theme === 'dark' ? <span>I am RakIb😀😮😊</span> : '...'
+          theme === 'dark' ? <span>I am RakIb😅😮😊</span> : '...'
         }</h1>
       <div className="absolute top-3 right-4">
 
