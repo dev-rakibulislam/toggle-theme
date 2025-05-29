@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@layer base {
+  body {
+    @apply bg-white dark:bg-[#1f361e] text-gray-900 dark:text-[#f0ff00];
+  }
+  button {
+    @apply bg-red-400 dark:bg-blue-800 px-6 py-1 rounded-2xl text-black dark:text-white;
+  }
+}
